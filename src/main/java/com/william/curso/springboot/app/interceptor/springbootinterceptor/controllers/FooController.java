@@ -24,5 +24,5 @@ public class FooController {
     @GetMapping("/baz")
     public Map<String, String> baz(){
         return Collections.singletonMap("message", "handler baz del controlador");
-    }
+    } //s6
 }
